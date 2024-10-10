@@ -1,0 +1,49 @@
+﻿@inject UserService UserService
+@inject NavigationManager Navigation
+
+<h3>Login</h3>
+
+<EditForm @Model="user" @OnInvalidSubmit="ObtenerUsuarios" >
+    <DataAnnotationsValidator/>
+
+    <InputText @bind-Value="user.Email" ></InputText> 
+
+</EditForm>
+
+
+<EditForm @Model="user" @OnInvalidSubmit="HandleInsertarUsuario" >
+    <DataAnnotationsValidator/>
+
+    <InputText @bind-Value="user.Email" ></InputText> 
+
+</EditForm>
+
+
+<EditForm @Model="user" @OnInvalidSubmit="HandleLogin" >
+    <DataAnnotationsValidator/>
+
+    <InputText @bind-Value="user.Email" ></InputText> 
+    <InputText @bind-Value="user.PasswordHash" ></InputText> 
+
+</EditForm>
+
+@code {
+    private User user = new User();
+
+    private async Task HandleLogin()
+    {
+        await UserService.AutenticateUser(user.Email, user.PasswordHash);
+    }
+
+    private async Task<List<User>> ObtenerUsuarios()
+    {
+        return await UserService.GetAllUsers();
+    }
+
+    private async Task HandleInsertarUsuario()
+    {
+        await UserService.InsertUsuario(user);
+    }
+
+
+}

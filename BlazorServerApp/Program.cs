@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using BlazorServerApp.Data;
+using MongoDB.Driver;
+using BlazorServerApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<MongoClient>(provider =>
+{
+    return new MongoClient("/localHost:27095");
+});
+
+builder.Services.AddSingleton<UserService>();
+
 
 var app = builder.Build();
 
