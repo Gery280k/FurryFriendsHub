@@ -1,6 +1,0 @@
-@FurryFriendsHub_BlazorAssembly_HostAddress = http://localhost:5253
-
-GET {{FurryFriendsHub_BlazorAssembly_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
