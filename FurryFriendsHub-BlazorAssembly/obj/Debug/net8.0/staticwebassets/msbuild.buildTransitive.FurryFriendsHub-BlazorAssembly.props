@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FurryFriendsHub-BlazorAssembly.props" />
+</Project>
