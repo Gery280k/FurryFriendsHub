@@ -1,0 +1,43 @@
+﻿@page "/userList"
+@inject IUserService UserService
+<h3>Usuarios</h3>
+
+@if (users == null)
+{
+	<p><em>Cargando...</em></p>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<th>Usuario</th>
+			<th>Email</th>
+			<th>Fecha de registro</th>
+			<th>Ultima Actualización</th>
+			<th></th>
+			<th></th>
+		</thead>
+		<tbody>
+			@foreach (var user in users)
+			{
+				<tr>
+					<td>@user.username</td>
+					<td>@user.email</td>
+					<td>@user.createdAt</td>
+					<td>@user.updatedAt</td>
+					<td></td>
+					<td></td>
+				</tr>
+			}
+		</tbody>
+	</table>	
+}
+
+@code {
+	IEnumerable<User> users;
+
+	protected override async Task OnInitializedAsync()
+	{
+		users =  await UserService.GetAllUsers();
+	}
+}
