@@ -454,13 +454,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -989,13 +989,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1913,10 +1913,10 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.10": {
-      "sha512": "xT8jYjlroY7SLbGtoV9vUTVW/TPgodL4Egc31a444Xe0TMytLZ3UlKQ0kxMZsy/CrWsFB6wtKnSG1SsXcWreew==",
+    "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "sha512": "zk5lnZrYJgtuJG8L4v17Ej8rZ3PUcR2iweNV08BaO5LbYHIi2wNaVNcJoLxvqgQdnjLlKnCCfVGLDr6QHeAarQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.10",
+      "path": "microsoft.net.illink.tasks/8.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1930,7 +1930,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1964,10 +1964,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
-      "sha512": "DTJaIRCxCphhaI+7htflFVgOHbQMLprP65yRk5jlnXfkjwyo8oNwFPBZDr6/3X0YO7W77JOjnfjve2QSaYxs9g==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.11": {
+      "sha512": "apyq1nlpnHG64NVs1RpgUJAxM73bu5fLFB/SsIcYYiLKdUxiIMPQQWr9ysRxfJRLlKwLSoJo6LmjhjS9sxC8eg==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/8.0.10",
+      "path": "microsoft.net.sdk.webassembly.pack/8.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1995,7 +1995,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
-        "microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.8.0.11.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net472/Microsoft.Build.dll",
@@ -2149,29 +2149,24 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.10",
       "Microsoft.AspNetCore.WebUtilities >= 8.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.10"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.11",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.11"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gera\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\led_c\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
+      "projectUniqueName": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
       "projectName": "AppWebFurryFriendsHub.Client",
-      "projectPath": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
-      "packagesPath": "C:\\Users\\Gera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\",
+      "projectPath": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
+      "packagesPath": "C:\\Users\\led_c\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Gera\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\led_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2179,15 +2174,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Shared\\AppWebFurryFriendsHub.Shared.csproj": {
-              "projectPath": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Shared\\AppWebFurryFriendsHub.Shared.csproj"
+            "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Shared\\AppWebFurryFriendsHub.Shared.csproj": {
+              "projectPath": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Shared\\AppWebFurryFriendsHub.Shared.csproj"
             }
           }
         }
@@ -2223,13 +2217,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.11, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.11, )",
             "autoReferenced": true
           }
         },
@@ -2247,7 +2241,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.10, 8.0.10]"
+            "version": "[8.0.11, 8.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -2255,7 +2249,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

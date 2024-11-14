@@ -1,0 +1,95 @@
+﻿@page "/Services"
+@inject HttpClient Http
+
+<PageTitle>Servicios</PageTitle>
+
+<h1>Agendar Cita para Servicio</h1>
+
+<p>Selecciona un servicio, una fecha y una hora para agendar una cita para tu mascota.</p>
+
+@if (servicios == null)
+{
+    <p><em>Cargando servicios...</em></p>
+}
+else
+{
+    <div>
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" @bind="servicioSeleccionado">
+            @foreach (var servicio in servicios)
+            {
+                <option value="@servicio.Id">@servicio.Nombre</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" @bind="fechaSeleccionada" />
+    </div>
+    <div>
+        <label for="hora">Hora:</label>
+        <select id="hora" @bind="horaSeleccionada">
+            @foreach (var timeSlot in horariosDisponibles)
+            {
+                <option value="@timeSlot">@timeSlot</option>
+            }
+        </select>
+    </div>
+    <button class="btn btn-primary" @onclick="AgendarServicio">Agendar Cita</button>
+
+    <!-- Mensaje de confirmación flotante -->
+    @if (mostrarConfirmacion)
+    {
+        <div class="mensaje-flotante">
+            <p>Cita confirmada exitosamente para el servicio seleccionado.</p>
+        </div>
+    }
+
+    @if (mensaje != null)
+    {
+        <p>@mensaje</p>
+    }
+}
+
+@code {
+    private List<Servicio>? servicios;
+    private int servicioSeleccionado;
+    private DateTime fechaSeleccionada;
+    private string horaSeleccionada = string.Empty;
+    private string? mensaje;
+    private bool mostrarConfirmacion = false;  // Controla la visibilidad del mensaje
+
+    private List<string> horariosDisponibles = new List<string>
+    {
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30",
+        "12:00", "12:30", "13:00", "13:30", "14:00", "14:30",
+        "15:00", "15:30", "16:00", "16:30"
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulación de carga de servicios
+        servicios = new List<Servicio>
+        {
+            new Servicio { Id = 1, Nombre = "Consulta Veterinaria" },
+            new Servicio { Id = 2, Nombre = "Corte de Pelo" },
+            new Servicio { Id = 3, Nombre = "Baño y Aseo" },
+            new Servicio { Id = 4, Nombre = "Vacunación" }
+        };
+    }
+
+    private void AgendarServicio()
+    {
+        mensaje = $"Cita agendada para {servicios.FirstOrDefault(s => s.Id == servicioSeleccionado)?.Nombre} el {fechaSeleccionada.ToShortDateString()} a las {horaSeleccionada}.";
+        mostrarConfirmacion = true;  // Muestra el mensaje flotante
+                                     // Desaparece el mensaje después de 3 segundos
+        Task.Delay(3000).ContinueWith(_ => mostrarConfirmacion = false);
+    }
+
+    public class Servicio
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; } = string.Empty;
+    }
+}
+

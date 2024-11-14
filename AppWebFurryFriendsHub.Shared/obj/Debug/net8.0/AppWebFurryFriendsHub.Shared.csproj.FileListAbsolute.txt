@@ -22,3 +22,16 @@ C:\Users\Gera\source\repos\WorkSpace\AppWebFurryFriendsHub.Shared\obj\Debug\net8
 C:\Users\Gera\source\repos\WorkSpace\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\refint\AppWebFurryFriendsHub.Shared.dll
 C:\Users\Gera\source\repos\WorkSpace\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.pdb
 C:\Users\Gera\source\repos\WorkSpace\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\ref\AppWebFurryFriendsHub.Shared.dll
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\bin\Debug\net8.0\AppWebFurryFriendsHub.Shared.deps.json
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\bin\Debug\net8.0\AppWebFurryFriendsHub.Shared.dll
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\bin\Debug\net8.0\AppWebFurryFriendsHub.Shared.pdb
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.csproj.AssemblyReference.cache
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.AssemblyInfoInputs.cache
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.AssemblyInfo.cs
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.csproj.CoreCompileInputs.cache
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.sourcelink.json
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.dll
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\refint\AppWebFurryFriendsHub.Shared.dll
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\AppWebFurryFriendsHub.Shared.pdb
+C:\Users\led_c\Source\Repos\FurryFriendsHub\AppWebFurryFriendsHub.Shared\obj\Debug\net8.0\ref\AppWebFurryFriendsHub.Shared.dll

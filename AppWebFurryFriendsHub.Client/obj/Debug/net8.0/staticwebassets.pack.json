@@ -1,63 +1,63 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\9cx1aa9kqz.gz",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\jixtyqhjbb.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppWebFurryFriendsHub.Client.styles.css",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppWebFurryFriendsHub.Client.styles.css",
       "PackagePath": "staticwebassets\\AppWebFurryFriendsHub.Client.styles.css"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-512.png",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\logo_.png",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\logo_.png",
       "PackagePath": "staticwebassets\\images\\logo_.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\manifest.webmanifest",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

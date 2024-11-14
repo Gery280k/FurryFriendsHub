@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "AppWebFurryFriendsHub.Client",
   "resources": {
-    "hash": "sha256-sgvTRawsVoDDvIGp5CP0ybPHGf5v4UzL1r4r6ZqDvrA=",
+    "hash": "sha256-0VZDF9am5klL4yG+1lOHyqHxpfVq4vGHI3lUDNOnouY=",
     "jsModuleNative": {
-      "dotnet.native.8.0.10.jgadt99diu.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
+      "dotnet.native.8.0.10.qhla04th3j.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.10.dbvbm4uh3p.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
+      "dotnet.runtime.8.0.10.q3q490e0k7.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4="
@@ -211,12 +211,12 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "AppWebFurryFriendsHub.Shared.wasm": "sha256-3shYBAd/ly4lalLkNen5CE4xZpr7f8X/5bX8nnYp/KQ=",
-      "AppWebFurryFriendsHub.Client.wasm": "sha256-BDo/mbZx8/bTufNLCMWMON563VZNBTRbZ0YseadxOeM="
+      "AppWebFurryFriendsHub.Shared.wasm": "sha256-BJun+fzvAdkmWSEJHfTt/SrTJh7scjv2EN/ShjGaJPQ=",
+      "AppWebFurryFriendsHub.Client.wasm": "sha256-fou9ig16XWBSHrPjhVmoEmM8LsP7apWapLfwSMe4ahY="
     },
     "pdb": {
-      "AppWebFurryFriendsHub.Shared.pdb": "sha256-TvkrmcasvKZSR1rEhWfi+GE4deLdprnpT/2VihjPDNo=",
-      "AppWebFurryFriendsHub.Client.pdb": "sha256-vKwO/bYEM1ZSxaSa25X/8WbNlTEbSCTGRcgcLAk54B0="
+      "AppWebFurryFriendsHub.Shared.pdb": "sha256-p/clEPaLXvZTvt8UIiIMsf7AXxoB/0XOXUUa2OfVmFM=",
+      "AppWebFurryFriendsHub.Client.pdb": "sha256-ltGMA7gqSBeI+zi1/Mxz/LtUvnQwIgt3TKfq6b5b27U="
     }
   },
   "cacheBootResources": true,

@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-z13PmOBmFKOsI0UAWSok+i7frr0djpUraQ0PMLStFs4=",
+      "hash": "sha256-zRpr6Ap2XZCt9V7A+pRiXQ72tKTXTb321NpEwWdaAbE=",
       "url": "css\/app.css"
     },
     {
@@ -29,15 +29,15 @@
       "url": "images\/logo_.png"
     },
     {
-      "hash": "sha256-ktdNI7Mba1+7wEiQ22WWW0Ck5iazadgFyg8hkmFm\/8A=",
+      "hash": "sha256-oZL1+eRVFNMmOe4HqTKWG0cFu5TVdYSai+1DQRVL7VE=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-FHAF3\/t30ohNwCk61rm4W90ngbkZOExXBDDbnzWqQGw=",
+      "hash": "sha256-KOq6isNk3nnoNt4mAnNDWJbAu7ZAiDnBJKjNnLWyi9Y=",
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ\/A6aYYSQjZfVn2cU=",
+      "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data\/weather.json"
     },
     {
@@ -834,7 +834,7 @@
     },
     {
       "hash": "sha256-QVxMlY7ohmjgde\/bZMA0dlWDAeuUP+tEfkiSdg4DFcE=",
-      "url": "_framework\/dotnet.native.8.0.10.jgadt99diu.js"
+      "url": "_framework\/dotnet.native.8.0.10.qhla04th3j.js"
     },
     {
       "hash": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4=",
@@ -842,7 +842,7 @@
     },
     {
       "hash": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI=",
-      "url": "_framework\/dotnet.runtime.8.0.10.dbvbm4uh3p.js"
+      "url": "_framework\/dotnet.runtime.8.0.10.q3q490e0k7.js"
     },
     {
       "hash": "sha256-g0+KbG5eqV7oSymdG3TVcooS55Oo2G1iCIzVQ77ZLmY=",
@@ -861,25 +861,25 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-3shYBAd\/ly4lalLkNen5CE4xZpr7f8X\/5bX8nnYp\/KQ=",
+      "hash": "sha256-BJun+fzvAdkmWSEJHfTt\/SrTJh7scjv2EN\/ShjGaJPQ=",
       "url": "_framework\/AppWebFurryFriendsHub.Shared.wasm"
     },
     {
-      "hash": "sha256-TvkrmcasvKZSR1rEhWfi+GE4deLdprnpT\/2VihjPDNo=",
+      "hash": "sha256-p\/clEPaLXvZTvt8UIiIMsf7AXxoB\/0XOXUUa2OfVmFM=",
       "url": "_framework\/AppWebFurryFriendsHub.Shared.pdb"
     },
     {
-      "hash": "sha256-vXgdadcqWgKxiaFiI\/CRAL2EKPTRptBimGzU9tskzVA=",
+      "hash": "sha256-gfcKSYmfCHngIpimtH4U0qutr1t\/JUlzhN7oUQw6or0=",
       "url": "_framework\/AppWebFurryFriendsHub.Client.wasm"
     },
     {
-      "hash": "sha256-OFHbgDCbNGQJw6inzS08Pg7YBx+XEzUOI8B1uoGRDz4=",
+      "hash": "sha256-i0\/c1R6ZpPTnCTr616HhnLUPELD5l6K\/qp4YvLeL5Lg=",
       "url": "_framework\/AppWebFurryFriendsHub.Client.pdb"
     },
     {
-      "hash": "sha256-aoFxBHLCly7Syp+3alAUUkXXuSTyPFgqmt0hs7XjdmQ=",
+      "hash": "sha256-BVZEXCzJ5chM3ZAsxwaSZlNJAooaMJXLHxpUdY4dZIQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "AzKjz6QX"
+  "version": "KETSeG9R"
 };
