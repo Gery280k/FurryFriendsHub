@@ -1,0 +1,110 @@
+﻿.home-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.banner-carousel {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.carousel-image {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 100%; /* Para que no se desborde del contenedor */
+    max-height: 300px; /* Altura máxima para el banner */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.carousel-controls button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .carousel-controls button:first-child {
+        left: 10px;
+    }
+
+    .carousel-controls button:last-child {
+        right: 10px;
+    }
+
+.promotions-section {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.promo-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .promo-card img {
+        width: 150px; /* Ancho fijo para las tarjetas */
+        height: 150px; /* Alto fijo para las tarjetas */
+        object-fit: cover; /* Mantiene las proporciones de la imagen */
+        border-radius: 10px; /* Opcional: esquinas redondeadas */
+    }
+
+.banner-img {
+    max-width: 100%; /* Para que no se desborde del contenedor */
+    max-height: 300px; /* Altura máxima para el banner */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.promo-img {
+    width: 150px; /* Ancho fijo para las tarjetas */
+    height: 150px; /* Alto fijo para las tarjetas */
+    object-fit: cover; /* Mantiene las proporciones de la imagen */
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+}
+
+
+.btn-see-more {
+    background-color: #ff6a00; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Negritas */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+    .btn-see-more:hover {
+        background-color: #b98304; /* Color de fondo al pasar el mouse */
+        transform: scale(1.05); /* Efecto de agrandamiento */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+    }
