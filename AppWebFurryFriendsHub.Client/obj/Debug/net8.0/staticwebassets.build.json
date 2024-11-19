@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TC0dC7cHs93Fwe408ZCHU6gSGevtXq5oki+g3C/NXME=",
+  "Hash": "Sk/CQ6JuilDnEoQwXq0dEaB3xmdn4ZhuW3yVA2lxV20=",
   "Source": "AppWebFurryFriendsHub.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -8128,6 +8128,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\styles.css",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\favicon.png",

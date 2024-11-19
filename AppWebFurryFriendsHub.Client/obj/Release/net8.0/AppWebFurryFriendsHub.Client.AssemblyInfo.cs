@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppWebFurryFriendsHub.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+badfd475c59010ae5c5b1b33263785eb1560c995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c07ca93183c3d8dd6c40ea10ea3699b478206c28")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppWebFurryFriendsHub.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppWebFurryFriendsHub.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

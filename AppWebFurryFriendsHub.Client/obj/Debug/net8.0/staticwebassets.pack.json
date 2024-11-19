@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

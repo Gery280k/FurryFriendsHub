@@ -1,5 +1,8 @@
 ﻿@page "/Services"
 @inject HttpClient Http
+@inject IJSRuntime JS
+
+<link href="css/styles.css" rel="stylesheet" />
 
 <PageTitle>Servicios</PageTitle>
 
@@ -35,12 +38,12 @@ else
             }
         </select>
     </div>
-    <button class="btn btn-primary" @onclick="AgendarServicio">Agendar Cita</button>
+    <button class="btn" @onclick="AgendarServicio" disabled="@(!FormularioValido)">Agendar Cita</button>
 
     <!-- Mensaje de confirmación flotante -->
     @if (mostrarConfirmacion)
     {
-        <div class="mensaje-flotante">
+        <div class="mensaje-flotante show">
             <p>Cita confirmada exitosamente para el servicio seleccionado.</p>
         </div>
     }
@@ -57,7 +60,10 @@ else
     private DateTime fechaSeleccionada;
     private string horaSeleccionada = string.Empty;
     private string? mensaje;
-    private bool mostrarConfirmacion = false;  // Controla la visibilidad del mensaje
+    private bool mostrarConfirmacion = false;
+
+    private bool FormularioValido =>
+        servicioSeleccionado > 0 && fechaSeleccionada != default && !string.IsNullOrEmpty(horaSeleccionada);
 
     private List<string> horariosDisponibles = new List<string>
     {
@@ -68,6 +74,9 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        // Establece la fecha predeterminada como un día después de hoy
+        fechaSeleccionada = DateTime.Today.AddDays(1);
+
         // Simulación de carga de servicios
         servicios = new List<Servicio>
         {
@@ -78,12 +87,15 @@ else
         };
     }
 
-    private void AgendarServicio()
+    private async Task AgendarServicio()
     {
         mensaje = $"Cita agendada para {servicios.FirstOrDefault(s => s.Id == servicioSeleccionado)?.Nombre} el {fechaSeleccionada.ToShortDateString()} a las {horaSeleccionada}.";
-        mostrarConfirmacion = true;  // Muestra el mensaje flotante
-                                     // Desaparece el mensaje después de 3 segundos
-        Task.Delay(3000).ContinueWith(_ => mostrarConfirmacion = false);
+        mostrarConfirmacion = true;
+
+        // Espera 3 segundos antes de ocultar el mensaje de confirmación
+        await Task.Delay(3000);
+        mostrarConfirmacion = false;
+        StateHasChanged();  // Refresca el componente para reflejar cambios
     }
 
     public class Servicio
@@ -92,4 +104,3 @@ else
         public string Nombre { get; set; } = string.Empty;
     }
 }
-
