@@ -1,16 +1,15 @@
 ﻿@inherits LayoutComponentBase
+
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
+    <div class="position-fixed w-100" style="z-index:1;">
+        <NavMenu></NavMenu>
     </div>
+    <AppWebFurryFriendsHub.Client.Pages.Cart></AppWebFurryFriendsHub.Client.Pages.Cart>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
+        <div class="content" style="padding-top:115px;">
             @Body
-        </article>
+        </div>
     </main>
 </div>
+

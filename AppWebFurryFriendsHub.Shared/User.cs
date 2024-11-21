@@ -18,5 +18,6 @@ namespace AppWebFurryFriendsHub.Shared
         public string passwordHash { get; set; }
         public DateTime createdAt { get; set; }
         public DateTime updatedAt { get; set; }
+
     }
 }

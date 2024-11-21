@@ -1,63 +1,191 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\9cx1aa9kqz.gz",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\9cx1aa9kqz.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppWebFurryFriendsHub.Client.styles.css",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppWebFurryFriendsHub.Client.styles.css",
       "PackagePath": "staticwebassets\\AppWebFurryFriendsHub.Client.styles.css"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\Paypal.js",
+      "PackagePath": "staticwebassets\\Paypal.js"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-512.png",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\logo_.png",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\526f12.png",
+      "PackagePath": "staticwebassets\\images\\526f12.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\CarritoIcon.png",
+      "PackagePath": "staticwebassets\\images\\CarritoIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\CarritoIconWhite.png",
+      "PackagePath": "staticwebassets\\images\\CarritoIconWhite.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\Consulta_.jpg",
+      "PackagePath": "staticwebassets\\images\\Consulta_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\SinImagen.png",
+      "PackagePath": "staticwebassets\\images\\SinImagen.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\alimento_.jpg",
+      "PackagePath": "staticwebassets\\images\\alimento_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\billete-de-100-dolares.png",
+      "PackagePath": "staticwebassets\\images\\billete-de-100-dolares.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\borrar.png",
+      "PackagePath": "staticwebassets\\images\\borrar.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\cama-para-mascotas.png",
+      "PackagePath": "staticwebassets\\images\\cama-para-mascotas.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\carro-de-la-carretilla.png",
+      "PackagePath": "staticwebassets\\images\\carro-de-la-carretilla.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\collar_.jpg",
+      "PackagePath": "staticwebassets\\images\\collar_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\dino.png",
+      "PackagePath": "staticwebassets\\images\\dino.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\enlace-roto.png",
+      "PackagePath": "staticwebassets\\images\\enlace-roto.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\fiesta.png",
+      "PackagePath": "staticwebassets\\images\\fiesta.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\fuego.png",
+      "PackagePath": "staticwebassets\\images\\fuego.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\hueso.png",
+      "PackagePath": "staticwebassets\\images\\hueso.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\juguete_.jpg",
+      "PackagePath": "staticwebassets\\images\\juguete_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\latido-del-corazon.png",
+      "PackagePath": "staticwebassets\\images\\latido-del-corazon.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\linda.png",
+      "PackagePath": "staticwebassets\\images\\linda.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\logo_.png",
       "PackagePath": "staticwebassets\\images\\logo_.png"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\lupa.png",
+      "PackagePath": "staticwebassets\\images\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\nuevo.png",
+      "PackagePath": "staticwebassets\\images\\nuevo.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\pollo.png",
+      "PackagePath": "staticwebassets\\images\\pollo.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\promo1_.jpg",
+      "PackagePath": "staticwebassets\\images\\promo1_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\promo2_.jpg",
+      "PackagePath": "staticwebassets\\images\\promo2_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\recomendacion.jpg",
+      "PackagePath": "staticwebassets\\images\\recomendacion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\ropa.png",
+      "PackagePath": "staticwebassets\\images\\ropa.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\sobre-nosotros.png",
+      "PackagePath": "staticwebassets\\images\\sobre-nosotros.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\transportador-de-mascotas.png",
+      "PackagePath": "staticwebassets\\images\\transportador-de-mascotas.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\usuario.png",
+      "PackagePath": "staticwebassets\\images\\usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\manifest.webmanifest",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

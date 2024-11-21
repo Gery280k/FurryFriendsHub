@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CeFU9OE24F8=",
+  "dgSpecHash": "tCBQPmmYZdw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub\\AppWebFurryFriendsHub.csproj",
+  "projectFilePath": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\AppWebFurryFriendsHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gera\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Gera\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8xQglIyDWXY=",
+  "dgSpecHash": "6+gnL2008iY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gera\\source\\repos\\WorkSpace\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
+  "projectFilePath": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gera\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\Gera\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",

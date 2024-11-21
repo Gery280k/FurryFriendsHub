@@ -1,0 +1,138 @@
+﻿@page "/productGalery"
+@inject IProductService productService
+@inject CategoryService CategoryService
+@inject SearchService searchService
+@inject NavigationManager NavigationManager
+@inject CartService CartService
+
+<style>
+    .card-sombra {
+        transition: box-shadow 0.3s ease-in-out !important; /* Agrega transición suave */
+    }
+
+    .card-sombra:hover {
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3) !important; /* Sombra más intensa */
+    }
+
+
+    }
+</style>
+
+<div class="container p-0">
+    <div class="row">
+        <div class="container d-flex p-0">
+            <h3 class="col-8 fs-5">@Title</h3>
+        </div>
+    </div>
+    <hr />
+
+    <div class="row gap-2">
+        @if(!products.Any() && searchPerformed)
+        {
+            <NoResultsMessage></NoResultsMessage>
+        }
+        else
+        {
+            @foreach (var product in products)
+            {
+                <div class="card card-sombra d-flex align-content-center align-items-center" style="width: 20rem;">
+                    <img src="@GetProductImageUrl(product)" class="card-img-top mt-4" alt="@product.name" style="height: 250px; width:250px;" />
+                    <div class="card-body d-flex flex-column justify-content-between gap-3 fs-6">
+
+                        <div class="d-flex flex-column">
+                            <h5 class="card-title">@product.name</h5>
+                            <p class="card-text overflow-hidden">@product.description</p>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <p class="card-text fs-5"><strong>$@product.price.ToString("C", new CultureInfo("es-MX"))</strong></p>
+                            <button @onclick="() => CartService.AddToCart(product)" class="buttonAppAgregarCarrito">Agregar al Carrito</button>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+
+    @if (CartService.ShowAlert)
+    {
+        <div class="alert alert-success fw-bold position-fixed bottom-0 start-0 m-3 gap-3" role="alert">
+            Producto agregado al carrito
+            <button type="button" class="btn-close bg-danger" aria-label="Close" @onclick="CloseAlert"></button>
+        </div>
+    }
+
+</div>
+
+
+@code {
+
+    private IEnumerable<Product> products;
+    private string searchTerm = string.Empty;
+    private string Title = "Todos los productos";
+    private bool searchPerformed = false;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await productService.GetAllProducts();
+
+        CategoryService.OnCategoryChanged += async (categoryId, categoryName) =>
+        {
+            Title = categoryId == 0 ? "Todos los productos" : $"{categoryName}";
+            await LoadProductsByCategory(categoryId);
+            NavigationManager.NavigateTo($"/productGalery");
+            StateHasChanged();
+        };
+
+        searchService.OnSearchChanged += LoadProductsBySearch;
+        CartService.OnChange += StateHasChanged;
+
+    }
+
+    private async Task LoadProductsByCategory(int categoryId)
+    {
+        products = categoryId == 0 ? await productService.GetAllProducts() : await productService.GetProductByCategory(categoryId);
+    }
+
+    public void Dispose()
+    {
+        CategoryService.OnCategoryChanged -= async (categoryId, categoryName) =>
+        {
+            Title = categoryId == 0 ? "Todos los productos" : $"{categoryName}";
+            await LoadProductsByCategory(categoryId);
+            StateHasChanged();
+        };
+
+        CartService.OnChange -= StateHasChanged;
+    }
+
+
+    private string GetProductImageUrl(Product product)
+    {
+        if(string.IsNullOrEmpty(product.imageUrl) || ! Uri.IsWellFormedUriString(product.imageUrl, UriKind.Absolute))
+        {
+            return "/images/SinImagen.png";
+        }
+
+        return product.imageUrl; 
+    }
+
+    private async Task LoadProductsBySearch(string searchQuery)
+    {
+        searchPerformed = true;
+        products = await productService.SearchProducts(searchQuery);
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void CloseAlert()
+    {
+        CartService.CloseAlert(); 
+    }
+
+
+
+}

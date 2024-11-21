@@ -1,54 +1,110 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject CategoryService categoryService
+@inject SearchService searchService
+
+
+<nav class="navbar navbar-expand-lg navbar-light p-0" style="background-color: #fbf8b9;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">FurryFriendsHub</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+        <nav class="navbar navbar-light p-0 " style="background-color: #fbf8b9; ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color:  #f58b2d ; font-family:'Times New Roman'; font-weight:bold; font-size: 25px;">
+                    <img src="images/526f12.png" alt="" width="50" class="d-inline-block align-text-t" >
+                    FurryFriendsHub
+                </a>
+            </div>
+        </nav>
+        <form class="d-flex w-50 " @onsubmit="PreventSubmit">
+            <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search" @bind-value="searchQuery"  @onkeydown="HandleEnterKey" />
+            <button class="buttonAppSearch" type="button" @onclick="PerformSearch"><img src="/images/lupa.png" style="width:30px; height:30px;" /></button>
+        </form>
+
+        <nav class="d-flex gap-2">
+            <div class="d-flex flex-column">
+                <button class="bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="/images/CarritoIcon.png" style="width:30px; height:30px;" /></button>
+                <span style="font-size:14px; font-weight:bold;">Carrito</span>
+            </div>
+            <div class="d-flex flex-column">
+                <button class="bg-transparent border-0" type="button"><img src="/images/usuario.png" style="width:30px; height:30px;" /></button>
+                <span style="font-size:14px; font-weight:bold;">Cuenta</span>
+            </div>
+            <div class="d-flex flex-column">
+                <button class="bg-transparent border-0" type="button"><img src="/images/sobre-nosotros.png" style="width:30px; height:30px;" /></button>
+                <span style="font-size:14px; font-weight:bold;">Nosotros</span>
+            </div>
+        </nav>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
-</div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light pb-0 pt-0" style="background-color:   #eaca95 ;">
+    <div class="container-fluid">
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown BackCoffe colorCoffe" style="font-weight:bold;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Todas las categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(1, "Alimentos")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/hueso.png" />Alimentos</a></li>
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(2, "Juguetes")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/dino.png" />Juguetes</a></li>
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(3, "Salud y bienestar")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/latido-del-corazon.png" />Salud y bienestar</a></li>
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(4, "Camas y muebles")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/cama-para-mascotas.png" />Camas y muebles</a></li>
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(5, "Accesorios")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/enlace-roto.png" />Accesorios</a></li>
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(6, "Ropa y calzado")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/ropa.png" />Ropa y calzado</a></li>
+                        <li><a class="dropdown-item" href="productGalery" @onclick='() => categoryService.SetCategory(7, "Transporte y viajes")'><img style="width:20px; height:20px; margin-right:10px;" src="/images/transportador-de-mascotas.png" />Transporte y viajes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorCoffe" href="productGalery" style="font-weight:bold;" @onclick='() => categoryService.SetCategory(1, " Alimentos")'>Alimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorCoffe" href="productGalery" style="font-weight:bold;" @onclick='() => categoryService.SetCategory(2, " Juguetes")'>Juguetes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorCoffe" href="productGalery" style="font-weight:bold;" @onclick='() => categoryService.SetCategory(3, " Salud y bienestar")'>Salud y bienestar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorCoffe" href="productGalery" style="font-weight:bold;" @onclick='() => categoryService.SetCategory(4, " Camas y muebles")'>Camas y muebles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorCoffe" href="productGalery" style="font-weight:bold;" @onclick='() => categoryService.SetCategory(5, " Accesorios")'>Accesorios</a>
+                </li>
+            </ul>
         </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="userList">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Usuarios
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="userRegister">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Crear cuenta
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="userLogin">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Iniciar sesion
-            </NavLink>
-        </div>
-    </nav>
-</div>
 
-@code {
-    private bool collapseNavMenu = true;
+        <div>
+            <ul class="navbar-nav d-flex gap-2 list-unstyled justify-content-center align-items-center">
+                <li><a class="nav-link colorCoffe" href="noResultsMessage" style="font-weight:bold;"><img style="width:20px; height:20px; margin-right:10px;" src="/images/fuego.png" />Lo Nuevo</a></li>
+                <li><a class="nav-link colorCoffe" href="#" style="font-weight:bold;"><img style="width:20px; height:20px; margin-right:10px;" src="/images/billete-de-100-dolares.png" />Menos de $100</a></li>
+                <li><a class="nav-link colorCoffe" href="promociones" style="font-weight:bold;"><img style="width:20px; height:20px; margin-right:10px;" src="/images/nuevo.png" />Destacados</a></li>
+                <li><a class="nav-link colorCoffe" href="#" style="font-weight:bold;"><img style="width:20px; height:20px; margin-right:10px;" src="/images/fiesta.png" />Eventos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+@code{
+    private string searchQuery = string.Empty;
 
-    private void ToggleNavMenu()
+    private async Task PerformSearch()
     {
-        collapseNavMenu = !collapseNavMenu;
+        await searchService.TriggerSearch(searchQuery);
     }
+
+    private async Task HandleEnterKey(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await PerformSearch();
+        }
+    }
+
+    private Task PreventSubmit()
+    {
+        return Task.CompletedTask;
+    }
+
 }

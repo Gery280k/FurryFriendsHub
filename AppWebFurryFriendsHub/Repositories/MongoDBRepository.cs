@@ -9,7 +9,7 @@ namespace AppWebFurryFriendsHub.Repositories
 
         public MongoDBRepository()
         {
-            Client = new MongoClient("mongodb://localhost:27017/");
+            Client = new MongoClient("mongodb+srv://admin:admin@unitech.6n11b.mongodb.net/?retryWrites=true&w=majority&appName=Unitech");
             db = Client.GetDatabase("FurryFriendsHub");
         }
     }

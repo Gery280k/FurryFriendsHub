@@ -1,0 +1,90 @@
+﻿@page "/promociones"
+@using System.Timers
+
+<div class="home-container">
+    <!-- Banner dinámico -->
+    <div class="banner-carousel">
+        <img src="@slides[currentSlide].ImageUrl" alt="@slides[currentSlide].Title" class="carousel-image" />
+        <div class="banner-text">@slides[currentSlide].Title</div>
+        <div class="carousel-controls">
+            <button @onclick="PrevSlide">⟨</button>
+            <button @onclick="NextSlide">⟩</button>
+        </div>
+    </div>
+
+    <!-- Promociones destacadas -->
+    <div class="promotions-section">
+        <h2>Promociones Destacadas</h2>
+        <div class="cards-container">
+            @foreach (var promo in promotions)
+            {
+                <div class="promo-card">
+                    <img src="@promo.ImageUrl" alt="@promo.Name" />
+                    <h3>@promo.Name</h3>
+                    <p>@promo.Price.ToString("C", new CultureInfo("es-MX"))</p>
+                    <button class="btn-see-more">Ver más</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private int currentSlide = 0;
+    private Timer slideTimer;
+
+    private List<Slide> slides = new()
+    {
+        new Slide { ImageUrl = "images/promo1_.jpg", Title = "¡Descuentos en juguetes!" },
+        new Slide { ImageUrl = "images/Consulta_.jpg.", Title = "Consulta veterinaria gratis" },
+        new Slide { ImageUrl = "images/promo2_.jpg", Title = "¡Más juguetillos!" },
+        new Slide { ImageUrl = "images/recomendacion.jpg", Title = "Recomendaciones" }
+    };
+
+    private List<Promotion> promotions = new()
+    {
+        new Promotion { ImageUrl = "images/alimento_.jpg", Name = "Alimento Premium", Price = 450 },
+        new Promotion { ImageUrl = "images/juguete_.jpg", Name = "Juguete Interactivo", Price = 120 },
+        new Promotion { ImageUrl = "images/collar_.jpg", Name = "Collar con diseño", Price = 300 }
+    };
+
+    protected override void OnInitialized()
+    {
+        slideTimer = new Timer(5000); // Cambiar slide cada 5 segundos
+        slideTimer.Elapsed += (sender, e) => InvokeAsync(() => NextSlide());
+        slideTimer.Start();
+    }
+
+    private void NextSlide()
+    {
+        currentSlide = (currentSlide + 1) % slides.Count;
+    }
+
+    private void PrevSlide()
+    {
+        currentSlide = (currentSlide - 1 + slides.Count) % slides.Count;
+    }
+
+    private void AddToCart(Promotion promo)
+    {
+        Console.WriteLine($"Producto agregado al carrito: {promo.Name}");
+    }
+
+    public void Dispose()
+    {
+        slideTimer?.Dispose();
+    }
+
+    private record Slide
+    {
+        public string ImageUrl { get; set; }
+        public string Title { get; set; }
+    }
+
+    private record Promotion
+    {
+        public string ImageUrl { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+    }
+}
