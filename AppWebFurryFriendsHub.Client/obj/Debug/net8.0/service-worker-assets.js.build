@@ -1,15 +1,15 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-b9\/dIIGCr9SdLptMyVnzgjGE\/A3TXpCMe\/MNxiXNCDs=",
+      "hash": "sha256-UYEVjrkD8bors8OQcHctXuLOlVDiCgJ+IZ0cT7JSP1g=",
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-TC1SEeIcFCIE42XO2n9jL+B0Twieb07DSboRkfCm07o=",
+      "hash": "sha256-\/+GMQAHmorO8M\/btv6YNjrzIrSv1yEJqTIF5qSwi2WY=",
       "url": "css\/site.css"
     },
     {
-      "hash": "sha256-yERfJ+KI6RBKdnok4qYtDUpSdG+CJzx5+0PGnwNJhmo=",
+      "hash": "sha256-wxH9PYP6nht8PHfqBDRQc2OHXGSV3lsk9KCnoaIw\/Gw=",
       "url": "css\/styles.css"
     },
     {
@@ -57,15 +57,15 @@
       "url": "images\/recomendacion.jpg"
     },
     {
-      "hash": "sha256-7KMIH5vL0I5xb4khZHDfUoWZ5eC7MpsyfQ3YJVVR660=",
+      "hash": "sha256-pITDJLTl+HCMtslSazMHsdbC2+lD+DSbmbPfMKur0ko=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-qL\/Mi9d\/PQTO3BFkn4fOh8x+GzSvuG48wE4QDXcvlkk=",
+      "hash": "sha256-6W+5y2GWNNXzXdcqvzSQfE4sd1hPm976Q1W7U9jFlUo=",
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ\/A6aYYSQjZfVn2cU=",
+      "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data\/weather.json"
     },
     {
@@ -75,6 +75,10 @@
     {
       "hash": "sha256-Xf0fWCEjXk7E3E7NNXamV9RDq0tKlomt3TIzQZwi2GY=",
       "url": "AppWebFurryFriendsHub.Client.styles.css"
+    },
+    {
+      "hash": "sha256-oKvInLFvi9OW5TfdVOzpqKamndtUuqvE\/5I\/Hgj3I\/I=",
+      "url": "_framework\/DnsClient.wasm"
     },
     {
       "hash": "sha256-qvUVaVXCx0vIwC1ftYywcGopJB8y43BbfcCt3G9PQgM=",
@@ -177,8 +181,24 @@
       "url": "_framework\/MongoDB.Bson.wasm"
     },
     {
+      "hash": "sha256-o6xX+jwyjsQTnVLP4TVk+5AOQJQjE0egcqo\/RvtLd2I=",
+      "url": "_framework\/MongoDB.Driver.wasm"
+    },
+    {
+      "hash": "sha256-5T7C9zsTB8Pr6\/ydLJ4ILwSeTbvSzCeyxVoEXO0Rl5Q=",
+      "url": "_framework\/SharpCompress.wasm"
+    },
+    {
+      "hash": "sha256-Gm94GtJQLL4cxpQaCqIJxc0dCxpC\/lvYPK\/tNy0pRVk=",
+      "url": "_framework\/Snappier.wasm"
+    },
+    {
       "hash": "sha256-JqVBy6SV+3qk+IK3VJiyIDt9CsVk6b1\/ytTXmrI4mTM=",
       "url": "_framework\/System.IO.Pipelines.wasm"
+    },
+    {
+      "hash": "sha256-6zV+YbXzfrxvRSjRkWKbqb3yS2VRZmz1dhjJaTWjkOg=",
+      "url": "_framework\/ZstdSharp.wasm"
     },
     {
       "hash": "sha256-bqu74vg\/La1Ub2pVw0G0r6S6XMaAgbrpFYRK6yHXlo4=",
@@ -853,7 +873,7 @@
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
-      "hash": "sha256-cJIBmBzm4EQiugZuddJNeBd2Z3Mxh0YeWkKtAIYgxAM=",
+      "hash": "sha256-Z\/UqJWIJ38KW\/TD4mREqFQsOlc8BXb6y1wbT2kcF3LE=",
       "url": "_framework\/dotnet.js"
     },
     {
@@ -861,16 +881,16 @@
       "url": "_framework\/dotnet.js.map"
     },
     {
-      "hash": "sha256-WmRe\/XXUkzouR210Bxyg9fcdlQBe2Brb\/JmTK1frxsQ=",
-      "url": "_framework\/dotnet.native.8.0.10.qhla04th3j.js"
+      "hash": "sha256-VdKq87\/z5NIxZKmuM+fv38XF+RcEb\/bg3jVBwQSfwP4=",
+      "url": "_framework\/dotnet.native.8.0.11.nwjy9vq0nd.js"
     },
     {
       "hash": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-E\/qxGB0JGiY\/Izhuu1BHV73ArHMortYHVVjzNWx63Vg=",
-      "url": "_framework\/dotnet.runtime.8.0.10.q3q490e0k7.js"
+      "hash": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY=",
+      "url": "_framework\/dotnet.runtime.8.0.11.kyts0b35mq.js"
     },
     {
       "hash": "sha256-g0+KbG5eqV7oSymdG3TVcooS55Oo2G1iCIzVQ77ZLmY=",
@@ -889,45 +909,25 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-g9JtBD9nDfa2SD\/GlaNRZthkxxXKPieegf+Y30dPb0I=",
+      "hash": "sha256-VAtCUoO1OemvwDr3yn19QVNDECdw5z2UwzgHUuGn3cU=",
       "url": "_framework\/AppWebFurryFriendsHub.Shared.wasm"
     },
     {
-      "hash": "sha256-\/hN2nazBnAaLUhIt0Uc4b78cEbeU6KlEF1TtdkGxVBw=",
+      "hash": "sha256-Yw\/8Qd0p\/wwc7kQ0Z1\/xCzbGIIiyi7OEahFT4oOOZ5k=",
       "url": "_framework\/AppWebFurryFriendsHub.Shared.pdb"
     },
     {
-      "hash": "sha256-e6nvXWq8tilwKLp5DMCL7AFU09q7UVsq2nz6jkwXCMI=",
+      "hash": "sha256-NC1K7dkaj\/jIHpJ4ySS\/gUATHn+pWq5fNzY7XQ7uC1A=",
       "url": "_framework\/AppWebFurryFriendsHub.Client.wasm"
     },
     {
-      "hash": "sha256-nLciUIgLx5lL+N2I0hv9hjKno5\/1TPfCgY\/XgUJlF8U=",
+      "hash": "sha256-ncpyh\/Z0btApRgJjNQF+kkzMF0gfioTGVagQxNzME\/s=",
       "url": "_framework\/AppWebFurryFriendsHub.Client.pdb"
     },
     {
-      "hash": "sha256-C7j\/ug8GP8G8kyreRS1x09fAnTxwQrmb9mQpM9weTz0=",
+      "hash": "sha256-n1wJgkPT4UPYfgG686LDg86HEbn2e1EqEBnJ3fb10Xo=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-oKvInLFvi9OW5TfdVOzpqKamndtUuqvE\/5I\/Hgj3I\/I=",
-      "url": "_framework\/DnsClient.wasm"
-    },
-    {
-      "hash": "sha256-o6xX+jwyjsQTnVLP4TVk+5AOQJQjE0egcqo\/RvtLd2I=",
-      "url": "_framework\/MongoDB.Driver.wasm"
-    },
-    {
-      "hash": "sha256-5T7C9zsTB8Pr6\/ydLJ4ILwSeTbvSzCeyxVoEXO0Rl5Q=",
-      "url": "_framework\/SharpCompress.wasm"
-    },
-    {
-      "hash": "sha256-Gm94GtJQLL4cxpQaCqIJxc0dCxpC\/lvYPK\/tNy0pRVk=",
-      "url": "_framework\/Snappier.wasm"
-    },
-    {
-      "hash": "sha256-6zV+YbXzfrxvRSjRkWKbqb3yS2VRZmz1dhjJaTWjkOg=",
-      "url": "_framework\/ZstdSharp.wasm"
     }
   ],
-  "version": "eKRWldwb"
+  "version": "afPgjxjw"
 };

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LH4nA5EaUdk=",
+  "dgSpecHash": "LE8OpQMHGDU=",
   "success": true,
   "projectFilePath": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj",
   "expectedPackageFiles": [
@@ -31,8 +31,8 @@
     "C:\\Users\\led_c\\.nuget\\packages\\microsoft.jsinterop\\8.0.10\\microsoft.jsinterop.8.0.10.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.10\\microsoft.jsinterop.webassembly.8.0.10.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\microsoft.net.http.headers\\8.0.10\\microsoft.net.http.headers.8.0.10.nupkg.sha512",
-    "C:\\Users\\led_c\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.10\\microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
-    "C:\\Users\\led_c\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.10\\microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+    "C:\\Users\\led_c\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
+    "C:\\Users\\led_c\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.11\\microsoft.net.sdk.webassembly.pack.8.0.11.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\mongodb.bson\\3.0.0\\mongodb.bson.3.0.0.nupkg.sha512",
@@ -46,7 +46,7 @@
     "C:\\Users\\led_c\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\led_c\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512",
-    "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.10.nupkg.sha512"
+    "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

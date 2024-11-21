@@ -39,7 +39,8 @@ else
         </select>
     </div>
     <button class="btn" @onclick="AgendarServicio" disabled="@(!FormularioValido)">Agendar Cita</button>
-
+    <br>
+    <br>
     <!-- Mensaje de confirmación flotante -->
     @if (mostrarConfirmacion)
     {
@@ -53,6 +54,9 @@ else
         <p>@mensaje</p>
     }
 }
+
+
+<iframe src="https://calendar.google.com/calendar/embed?src=59b5f572b0f0da25bf9a683622cd0c99664cac3755bfddd0fab7a0dc046ae897%40group.calendar.google.com&ctz=America%2FMonterrey" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 @code {
     private List<Servicio>? servicios;
@@ -95,7 +99,7 @@ else
         // 3 seg para el mensaje de confirmacion de la cita 
         await Task.Delay(3000);
         mostrarConfirmacion = false;
-        StateHasChanged();  // Refresca el componente para reflejar cambios
+        StateHasChanged(); 
     }
 
     public class Servicio

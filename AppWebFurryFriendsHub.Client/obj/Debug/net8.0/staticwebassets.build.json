@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gJjHvWN3wXB7th2SyBZrgh5WMbc32sD1/Svwq6iD1p4=",
+  "Hash": "dGhh1+0hjjd+ovJDt0S4RACRkJ5uUlXr650fR1c1/mk=",
   "Source": "AppWebFurryFriendsHub.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.10.qhla04th3j.js",
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.11.nwjy9vq0nd.js",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.10.qhla04th3j.js",
+      "RelativePath": "_framework/dotnet.native.8.0.11.nwjy9vq0nd.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.10.q3q490e0k7.js",
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.11.kyts0b35mq.js",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.10.q3q490e0k7.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.11.kyts0b35mq.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -280,7 +280,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -299,7 +299,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\led_c\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4463,25 +4463,6 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ValueTuple.wasm"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\3qmt1rgkl2.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
-    },
-    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\3sf71i0ob4.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -4651,6 +4632,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\56rnhhl4qw.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\58o9vpjquf.gz",
@@ -4841,25 +4841,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.Calendars.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\75e5an6i6j.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\765jz2qwod.gz",
@@ -5964,6 +5945,25 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm"
     },
     {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\h9bsax8i81.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\hqgedyl2oi.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -6249,25 +6249,6 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\MongoDB.Bson.wasm"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\jvwd3pgraj.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
-    },
-    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\k2904uwqhs.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -6437,6 +6418,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\kyts0b35mq.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.11.kyts0b35mq.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.11.kyts0b35mq.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.11.kyts0b35mq.js"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\l8a8lscxpx.gz",
@@ -6762,6 +6762,25 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Quic.wasm"
     },
     {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\nwjy9vq0nd.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.11.nwjy9vq0nd.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.11.nwjy9vq0nd.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.11.nwjy9vq0nd.js"
+    },
+    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\nxfd2bzm1q.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -6933,6 +6952,25 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.wasm"
     },
     {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\p5x8k5e6ho.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
+    },
+    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\p6bkgpqdg8.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -6971,6 +7009,44 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.wasm"
     },
     {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\ph43xwxc0a.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\phx8if6tsd.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
+    },
+    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\pieysriytn.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -6988,25 +7064,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\MongoDB.Driver.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\plqjf896c8.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\px6kb8pnxr.gz",
@@ -7047,42 +7104,23 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Timer.wasm"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\q3q490e0k7.gz",
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\q4hmnq0vgs.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.10.q3q490e0k7.js.gz",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.10.q3q490e0k7.js",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.10.q3q490e0k7.js"
-    },
-    {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\qhla04th3j.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.10.qhla04th3j.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.10.qhla04th3j.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.10.qhla04th3j.js"
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\qo86xa9jf5.gz",
@@ -7218,25 +7256,6 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\s02vc2py37.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\s17vgsueqy.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -7351,25 +7370,6 @@
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\takxh4q16e.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
-    },
-    {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\toj2c8o5f3.gz",
       "SourceId": "AppWebFurryFriendsHub.Client",
       "SourceType": "Computed",
@@ -7463,6 +7463,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Concurrent.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\u9hc6gnb0g.gz",
+      "SourceId": "AppWebFurryFriendsHub.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\ucu31qqnn3.gz",
@@ -7672,25 +7691,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Windows.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\we3yecu46e.gz",
-      "SourceId": "AppWebFurryFriendsHub.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\obj\\Debug\\net8.0\\compressed\\wowppjnnin.gz",
