@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "AppWebFurryFriendsHub.Client",
   "resources": {
-    "hash": "sha256-JDw/l/kLoI0EMvhALrlfvY4cg7TOc4adLYrKnce8PlQ=",
+    "hash": "sha256-l6jIl3VPmZSD69z8O20oTJtGQjTzzlwrz7p+V9qrZAg=",
     "jsModuleNative": {
-      "dotnet.native.8.0.10.jgadt99diu.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
+      "dotnet.native.8.0.11.nwjy9vq0nd.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.10.dbvbm4uh3p.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
+      "dotnet.runtime.8.0.11.kyts0b35mq.js": "sha256-nam8JTYKjhMKOTg6+FlihYP6JpWPGe3jjM9fiUFWzhY="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4="
+      "dotnet.native.wasm": "sha256-1NJsNYy4gznvjVwzcG5w3Cl50enK1KB/7cKBMY+6jz4="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -211,12 +211,12 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "AppWebFurryFriendsHub.Shared.wasm": "sha256-fUaJofT7MGsC+aeDYb1slsnaMiXLbGOBA0pNJOdfGFU=",
-      "AppWebFurryFriendsHub.Client.wasm": "sha256-CD6XqPdSub5PwF8dw8LO6oxipISLsgCzYNV9vt0f55Y="
+      "AppWebFurryFriendsHub.Shared.wasm": "sha256-nYovtHjMeulFoXktQNTg7NKzTYcWoaJybrxzahy2PZ0=",
+      "AppWebFurryFriendsHub.Client.wasm": "sha256-kL9ocyq17xyDzMahQczPmA52PyyADYBfZ5NwgOHEo54="
     },
     "pdb": {
-      "AppWebFurryFriendsHub.Shared.pdb": "sha256-VocV3SXGISCamb8XCP8LWBis3Atbw81wP3Nilqq5zs0=",
-      "AppWebFurryFriendsHub.Client.pdb": "sha256-y1vwD+rigRkTsaqWmlW5FOgdux3maKyddVQitzt8PTM="
+      "AppWebFurryFriendsHub.Shared.pdb": "sha256-SBSvnpfe7FAog8sBNundoqm2UoE5KuQ4Ka3Uue1nhC8=",
+      "AppWebFurryFriendsHub.Client.pdb": "sha256-ZeZ0+6Ok4xxBkgRH852bpx4org3GTG63awb/Z0DI8Jw="
     }
   },
   "cacheBootResources": true,

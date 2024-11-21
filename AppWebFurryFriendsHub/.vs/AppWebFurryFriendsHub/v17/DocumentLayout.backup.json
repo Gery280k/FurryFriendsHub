@@ -1,49 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\",
+  "WorkspaceRootPath": "C:\\Users\\led_c\\source\\repos\\FurryFriendsHub\\AppWebFurryFriendsHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub\\repositories\\mongodbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|solutionrelative:repositories\\mongodbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\led_c\\source\\repos\\furryfriendshub\\appwebfurryfriendshub.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub\\repositories\\iusercollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|solutionrelative:repositories\\iusercollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68BB8C55-1A56-4ACE-8121-DD9F7E95D38C}|AppWebFurryFriendsHub.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\productgalery.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\mipedido.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\userlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\gera\\desktop\\appfurryfriendshub\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\userlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6B06A762-4CDE-40F3-AF99-6E523A7558D1}|..\\AppWebFurryFriendsHub.Client\\AppWebFurryFriendsHub.Client.csproj|c:\\users\\led_c\\source\\repos\\furryfriendshub\\appwebfurryfriendshub.client\\pages\\productgalery.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,185 +19,43 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductGalery.razor",
+              "DocumentMoniker": "C:\\Users\\led_c\\source\\repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
+              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
+              "ToolTip": "C:\\Users\\led_c\\source\\repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
+              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T19:14:08.56Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MongoDBRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Repositories\\MongoDBRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MongoDBRepository.cs",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Repositories\\MongoDBRepository.cs",
-              "RelativeToolTip": "Repositories\\MongoDBRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:30.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserCollection.cs",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Repositories\\IUserCollection.cs",
-              "RelativeDocumentMoniker": "Repositories\\IUserCollection.cs",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Repositories\\IUserCollection.cs",
-              "RelativeToolTip": "Repositories\\IUserCollection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:27.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:09.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:08.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\led_c\\source\\repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\led_c\\source\\repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
               "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:14:34.804Z",
+              "WhenOpened": "2024-11-21T20:49:52.932Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T15:57:14.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\Home.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T15:43:08.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Mipedido.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\Mipedido.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\Mipedido.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\Mipedido.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\Mipedido.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T03:56:47.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Services\\CartService.cs",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Services\\CartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T03:50:56.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Cart.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\Cart.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\Cart.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\Cart.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\Cart.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T03:50:36.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductGalery.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T00:12:17.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserList.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\UserList.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\UserList.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\UserList.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\UserList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T00:09:46.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserLogin.razor",
-              "DocumentMoniker": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\UserLogin.razor",
-              "RelativeDocumentMoniker": "..\\AppWebFurryFriendsHub.Client\\Pages\\UserLogin.razor",
-              "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\Pages\\UserLogin.razor",
-              "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\UserLogin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T15:46:03.015Z"
             }
           ]
         }

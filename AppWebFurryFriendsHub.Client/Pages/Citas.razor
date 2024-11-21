@@ -1,0 +1,159 @@
+﻿@page "/citas"
+
+<h3 class="text-center">
+
+</h3>
+
+@inject HttpClient Http
+@inject IJSRuntime JS
+
+<link href="css/styles.css" rel="stylesheet" />
+
+<PageTitle>Citas</PageTitle>
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center w-50">
+        <br>
+        <h1>Agendar Cita para Servicio</h1>
+        <p>Selecciona un servicio, una fecha y una hora para agendar una cita para tu mascota.</p>
+
+        @if (servicios == null)
+
+        {
+            <p><em>Cargando servicios...</em></p>
+        }
+
+        else
+
+        {
+            <div class="mb-3">
+                <label for="servicio" class="form-label">Servicio:</label>
+                <select id="servicio" class="form-select" @bind="servicioSeleccionado">
+                    @foreach (var servicio in servicios)
+                    {
+                        <option value="@servicio.Id">@servicio.Nombre</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="fecha" class="form-label">Fecha:</label>
+                <input type="date" id="fecha" class="form-control" @bind="fechaSeleccionada" />
+            </div>
+            <div class="mb-3">
+                <label for="hora" class="form-label">Hora:</label>
+                <select id="hora" class="form-select" @bind="horaSeleccionada">
+                    @foreach (var timeSlot in horariosDisponibles)
+                    {
+                        <option value="@timeSlot">@timeSlot</option>
+                    }
+                </select>
+            </div>
+            <button class="btn btn-primary w-100" @onclick="AgendarServicio" disabled="@(!FormularioValido)">
+                Agendar Cita
+            </button>
+            <br />
+            <br />
+            @if (mostrarConfirmacion)
+
+            {
+                <div class="alert alert-success mt-3" role="alert">
+                    Cita confirmada exitosamente para el servicio seleccionado.
+                </div>
+            }
+            @if (mensaje != null)
+
+            {
+                <p class="mt-2">@mensaje</p>
+            }
+        }
+
+        <iframe class="mt-4" src="https://calendar.google.com/calendar/embed?src=59b5f572b0f0da25bf9a683622cd0c99664cac3755bfddd0fab7a0dc046ae897%40group.calendar.google.com&ctz=America%2FMonterrey"
+                style="border: 0"
+                width="100%"
+                height="400px"
+                frameborder="0"
+                scrolling="no">
+        </iframe>
+    </div>
+</div>
+
+@code {
+    private List<Servicio>? servicios;
+
+    private int servicioSeleccionado;
+
+    private DateTime fechaSeleccionada;
+
+    private string horaSeleccionada = string.Empty;
+
+    private string? mensaje;
+
+    private bool mostrarConfirmacion = false;
+
+
+
+    private bool FormularioValido =>
+
+        servicioSeleccionado > 0 && fechaSeleccionada != default && !string.IsNullOrEmpty(horaSeleccionada);
+
+
+
+    private List<string> horariosDisponibles = new List<string>
+    {
+        "09:00", "09:30", "10:00", "10:30", "11:00", "11:30",
+        "12:00", "12:30", "13:00", "13:30", "14:00", "14:30",
+        "15:00", "15:30", "16:00", "16:30"
+    };
+
+
+
+    protected override async Task OnInitializedAsync()
+
+    {
+
+        fechaSeleccionada = DateTime.Today.AddDays(1);
+
+
+
+        servicios = new List<Servicio>
+        {
+            new Servicio { Id = 1, Nombre = "Consulta Veterinaria" },
+            new Servicio { Id = 2, Nombre = "Corte de Pelo" },
+            new Servicio { Id = 3, Nombre = "Baño y Aseo" },
+            new Servicio { Id = 4, Nombre = "Vacunación" }
+        };
+
+    }
+
+
+
+    private async Task AgendarServicio()
+
+    {
+
+        mensaje = $"Cita agendada para {servicios.FirstOrDefault(s => s.Id == servicioSeleccionado)?.Nombre} el {fechaSeleccionada.ToShortDateString()} a las {horaSeleccionada}.";
+
+        mostrarConfirmacion = true;
+
+
+
+        await Task.Delay(3000);
+
+        mostrarConfirmacion = false;
+
+        StateHasChanged();
+
+    }
+
+
+
+    public class Servicio
+
+    {
+
+        public int Id { get; set; }
+
+        public string Nombre { get; set; } = string.Empty;
+
+    }
+}
