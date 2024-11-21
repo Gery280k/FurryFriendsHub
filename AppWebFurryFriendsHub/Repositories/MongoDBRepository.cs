@@ -11,6 +11,8 @@ namespace AppWebFurryFriendsHub.Repositories
         {
             Client = new MongoClient("mongodb+srv://admin:admin@unitech.6n11b.mongodb.net/?retryWrites=true&w=majority&appName=Unitech");
             db = Client.GetDatabase("FurryFriendsHub");
+
+            //actualizacion a nube
         }
     }
 }

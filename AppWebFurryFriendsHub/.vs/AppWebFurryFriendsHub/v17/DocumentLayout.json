@@ -53,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 298,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -68,10 +68,6 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MongoDBRepository.cs",
@@ -79,7 +75,7 @@
               "RelativeDocumentMoniker": "Repositories\\MongoDBRepository.cs",
               "ToolTip": "C:\\Users\\Gera\\Desktop\\AppFurryFriendsHub\\FurryFriendsHub\\AppWebFurryFriendsHub\\Repositories\\MongoDBRepository.cs",
               "RelativeToolTip": "Repositories\\MongoDBRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T17:36:30.562Z",
               "EditorCaption": ""
@@ -94,8 +90,7 @@
               "RelativeToolTip": "Repositories\\IUserCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:27.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T17:36:27.807Z"
             },
             {
               "$type": "Document",
@@ -107,8 +102,7 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:09.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T17:36:09.806Z"
             },
             {
               "$type": "Document",
@@ -120,8 +114,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:36:08.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T17:36:08.455Z"
             },
             {
               "$type": "Document",
@@ -133,8 +126,7 @@
               "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Layout\\NavMenu.razor",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAFEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:14:34.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T17:14:34.804Z"
             },
             {
               "$type": "Document",
@@ -146,8 +138,7 @@
               "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T15:57:14.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T15:57:14.145Z"
             },
             {
               "$type": "Document",
@@ -159,8 +150,7 @@
               "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T15:43:08.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T15:43:08.433Z"
             },
             {
               "$type": "Document",
@@ -172,8 +162,7 @@
               "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\Mipedido.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T03:56:47.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T03:56:47.329Z"
             },
             {
               "$type": "Document",
@@ -209,8 +198,7 @@
               "RelativeToolTip": "..\\AppWebFurryFriendsHub.Client\\Pages\\ProductGalery.razor",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T00:12:17.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T00:12:17.803Z"
             },
             {
               "$type": "Document",
@@ -235,6 +223,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-21T15:46:03.015Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
