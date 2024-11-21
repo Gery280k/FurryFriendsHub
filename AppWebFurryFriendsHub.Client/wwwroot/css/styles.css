@@ -73,7 +73,18 @@ select, input {
         display: block;
     }
 
-/* Spinner de carga */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    a:hover {
+        color: #0078D4;
+    }
+
+
+
 .loader {
     display: flex;
     justify-content: center;

@@ -25,12 +25,8 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\css\\styles.css",
@@ -49,8 +45,36 @@
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\Consulta_.jpg",
+      "PackagePath": "staticwebassets\\images\\Consulta_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\alimento_.jpg",
+      "PackagePath": "staticwebassets\\images\\alimento_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\collar_.jpg",
+      "PackagePath": "staticwebassets\\images\\collar_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\juguete_.jpg",
+      "PackagePath": "staticwebassets\\images\\juguete_.jpg"
+    },
+    {
       "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\logo_.png",
       "PackagePath": "staticwebassets\\images\\logo_.png"
+    },
+    {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\promo1_.jpg",
+      "PackagePath": "staticwebassets\\images\\promo1_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\promo2_.jpg",
+      "PackagePath": "staticwebassets\\images\\promo2_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\images\\recomendacion.jpg",
+      "PackagePath": "staticwebassets\\images\\recomendacion.jpg"
     },
     {
       "Id": "C:\\Users\\led_c\\Source\\Repos\\FurryFriendsHub\\AppWebFurryFriendsHub.Client\\wwwroot\\index.html",

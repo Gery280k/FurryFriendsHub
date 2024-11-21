@@ -225,4 +225,14 @@ code {
     }
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    a:hover {
+        color: #0078D4;
+    }
+
+
 </style >

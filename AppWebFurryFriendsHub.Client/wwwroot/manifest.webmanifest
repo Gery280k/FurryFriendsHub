@@ -1,21 +1,21 @@
 {
-  "name": "AppWebFurryFriendsHub.Client",
+  "name": "AppFurryFriendsHub",
   "short_name": "AppWebFurryFriendsHub.Client",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#e7e373",
+  "theme_color": "#e7e373",
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icon-512.png",
-      "type": "image/png",
+      "src": "images/logo_.png",
+      "type": "images/png",
       "sizes": "512x512"
     },
     {
-      "src": "icon-192.png",
-      "type": "image/png",
+      "src": "images/logo_.png",
+      "type": "images/png",
       "sizes": "192x192"
     }
   ]

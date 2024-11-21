@@ -74,10 +74,10 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        // Establece la fecha predeterminada como un día después de hoy
+        // para que en el campo de hora se ponga hoy + 1 =mañana como sugerencia
         fechaSeleccionada = DateTime.Today.AddDays(1);
 
-        // Simulación de carga de servicios
+        // Lista pra los servicios, despues vemos como lo pasamos a una bd,
         servicios = new List<Servicio>
         {
             new Servicio { Id = 1, Nombre = "Consulta Veterinaria" },
@@ -92,7 +92,7 @@ else
         mensaje = $"Cita agendada para {servicios.FirstOrDefault(s => s.Id == servicioSeleccionado)?.Nombre} el {fechaSeleccionada.ToShortDateString()} a las {horaSeleccionada}.";
         mostrarConfirmacion = true;
 
-        // Espera 3 segundos antes de ocultar el mensaje de confirmación
+        // 3 seg para el mensaje de confirmacion de la cita 
         await Task.Delay(3000);
         mostrarConfirmacion = false;
         StateHasChanged();  // Refresca el componente para reflejar cambios
