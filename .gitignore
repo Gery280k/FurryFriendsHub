@@ -1,1 +1,15 @@
 .vs/
+
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Ignorar archivos comprimidos y temporales
+*.zip
+*.gz
+
+# Ignorar ensamblados y datos WASM
+*.dll
+*.pdb
+*.wasm
+
